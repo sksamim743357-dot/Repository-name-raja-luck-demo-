@@ -1,0 +1,15 @@
+{
+  "name": "raja-luck-demo-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Raja Luck demo-only Wingo game with server-side demo balance and admin login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
